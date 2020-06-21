@@ -1,4 +1,4 @@
-ARG COMPOSE_VERSION=1.26.0
+ARG COMPOSE_VERSION=debian-1.26.0
 FROM docker/compose:${COMPOSE_VERSION}
 
 RUN apk add --no-cache curl
