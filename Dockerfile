@@ -1,4 +1,5 @@
-FROM docker/compose
+ARG COMPOSE_VERSION=1.26.0
+FROM docker/compose:${COMPOSE_VERSION}
 
 RUN apk add --no-cache curl
 
